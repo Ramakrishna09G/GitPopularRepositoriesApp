@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.language-filter-items-container {
+  align-self: center;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: wrap;
+}
+@media (min-width: 768px) {
+  .language-filter-items-container {
+    width: 50%;
+    justify-content: center;
+  }
+}
+.each-option {
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.each-option:hover {
+  border: solid #0284c7 2px;
+  border-radius: 8px;
+  color: #0284c7;
+  padding-right: 5px;
+  padding-left: 5px;
+}

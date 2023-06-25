@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.repos-item-container {
+  width: 180px;
+
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .repos-item-container {
+    width: 230px;
+  }
+}
+.avatar-img {
+  max-width: 45px;
+}
+.avatar-name {
+  font-size: 12px;
+  color: #e73959;
+  font-family: 'Roboto';
+}
+.item-info-card {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.count-img {
+  width: 12px;
+}
+.item-info-name {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
